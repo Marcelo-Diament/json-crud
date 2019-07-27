@@ -1,0 +1,14 @@
+{
+  "name": "JSON CRUD PHP | Djament Comunicação",
+  "short_name": "JSON CRUD",
+  "start_url": "https://djament.com.br/estudos/json-crud/index.php",
+  "description": "Estudo sobre CRUD JSON PHP",
+  "background_color": "#039fce",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "icons": [{
+    "src": "https://djament.com.br/estudos/json-crud/assets/img/jason1.jpg",
+    "sizes": "225x225",
+    "type": "img/jpg"
+  }]
+}

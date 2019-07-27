@@ -1,0 +1,58 @@
+{
+  "alunos": [
+    {
+      "nome": "Marcelo",
+      "sobrenome": "Diament",
+      "email": "contato@djament.co",
+      "senha": "12346578",
+      "telefone": "+55 11 12345678",
+      "celular": "+55 11 123456789",
+      "tipo": "Rua",
+      "logradouro": "de Cima",
+      "numero": "123",
+      "complemento": "456",
+      "bairro": "Largo Treze",
+      "cep": "12345-678",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "pais": "Brasil",
+      "profissao": "Desenvolvedor Full Stak"
+    },
+    {
+      "nome": "Fulano",
+      "sobrenome": "de Tal",
+      "email": "fulano@detal.com",
+      "senha": "98765432",
+      "telefone": "+55 11 98765432",
+      "celular": "+55 11 987654321",
+      "tipo": "Travessa",
+      "logradouro": "7",
+      "numero": "2B",
+      "complemento": "Apto. 99",
+      "bairro": "Barra Grande",
+      "cep": "98765-432",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "pais": "Brasil",
+      "profissao": "Web Dev"
+    },
+    {
+      "nome": "Jane",
+      "sobrenome": "Doe",
+      "email": "blind@spot.com",
+      "senha": "98765432",
+      "telefone": "+55 11 98765432",
+      "celular": "+55 11 123456789",
+      "tipo": "Rua",
+      "logradouro": "Dois",
+      "numero": "3",
+      "complemento": "Apto. 4",
+      "bairro": "Pinheiros",
+      "cep": "12345-678",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "pais": "Brasil",
+      "profissao": "Tester"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 20px 10%;
+}
+h1 {
+	text-align: center;
+	margin: 20px auto 40px auto;
+}
+code {
+	background-color: #000;
+	color: lightgreen;
+	padding: 10px;
+	display: block;
+	margin: 30px auto;
+	border: 10px solid lightgrey;
+	border-radius: 5px;
+	width: 50%;
+	min-height: 50px;
+	max-height: 400px;
+	overflow-y: auto;
+	line-height: 2em;
+}
+pre {
+	max-height: 200px;
+}
+pre, form{
+	background-color: rgba(225,225,225,0.1);
+	color: #222;
+	padding: 10px;
+	display: block;
+	margin: 30px auto;
+	border: 2px solid rgba(225,225,225,0.5);
+	border-radius: 5px;
+	width: calc(50% + 16px);
+	min-height: 50px;
+	overflow-y: auto;
+	line-height: 2em;
+}
+form h4 {
+	text-align: center;
+	margin: 10px;
+}
+form small {
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+}
+div {
+  position: relative;
+  margin: 0;
+}
+label, input {
+	margin: 5px;
+}
+label {
+	display: inline-block;
+	width: 100px;
+}
+input {
+	width: calc(100% - 180px);
+}
+input + span {
+  padding-right: 30px;
+}
+input:invalid+span:after {
+  position: absolute; content: '✖';
+  padding-left: 5px;
+  color: #8b0000;
+}
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+  color: #009000;
+}
+input[type="file"]:invalid+span:after {
+  padding-left: 10px;
+}
+input[type="file"]:valid+span:after {
+  padding-left: 10px;
+}
+input[name="nomeBuscado"], label[for="inputNomeBuscado"] {
+	width: calc(100% - 20px);
+}
+nav {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px auto;
+}
+a {
+	text-decoration: none;
+}
+p {
+	margin: 20px auto;
+}
+p a {
+	font-weight: bolder;
+	color: blue;
+	cursor: pointer;
+}
+li {
+	font-weight: bolder;
+	margin: 10px auto 10px 20px;
+}
+abbr {
+	font-weight: bolder;
+}
+.php {
+	background-color: rgba(235,235,235,1);
+	color: darkgreen;
+	font-style: italic;
+	padding: 0 3px;
+	font-weight: bolder;
+}
+.html {
+	background-color: rgba(235,235,235,1);
+	color: darkblue;
+	font-style: italic;
+	padding: 0 3px;
+	font-weight: bolder;
+}
+.variavel, .funcao, .arquivo {
+	background-color: rgba(235,235,235,1);
+	color: darkred;
+	font-style: italic;
+	padding: 0 3px;
+	font-weight: bolder;
+}
+.dica {
+	background-color: blue;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	line-height: 1.5em;
+}
+.alerta {
+	background-color: orange;
+	color: #000;
+	border-radius: 5px;
+	padding: 10px;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+.htmlEntities {
+	font-weight: bolder;
+	font-size: 1.5em;
+	margin-right: 10px;
+}
+.proximo, .anterior, .enviar {
+	background-color: blue;
+	color: #fff;
+	font-size: 1.3em;
+	border-radius: 50px;
+	border-style: none;
+	display: block;
+	/*cursor: pointer;*/
+}
+.enviar {
+	margin: 20px auto;
+	padding: 5px 20px;
+	cursor: pointer;
+	width: auto;
+}
+.anterior {
+	margin: auto auto auto 0;
+	padding: 5px 30px 10px 20px;
+}
+.proximo {
+	margin: auto 0 auto auto;
+	padding: 5px 20px 10px 30px;
+}
+.identado {
+	margin-left: 15px;
+}
+.identado2 {
+	margin-left: 30px;
+}
+.identado3 {
+	margin-left: 45px;
+}
+.identado4 {
+	margin-left: 60px;
+}
+.identado5 {
+	margin-left: 75px;
+}
+.detalhesAlunos {
+	list-style: none;
+}
+.btnInfo {
+	background-color: blue;
+	color: #fff;
+	border-style: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+#tbAlunos {
+	width: 60%;
+	margin: 20px auto;
+}
+#tbAlunos, #tbAlunos th, #tbAlunos td {
+	border: 1px solid darkgrey;
+	text-align: center;
+}
+#tbAlunos th, #tbAlunos td {
+	width: 30%;
+}
+#formUpdateAluno {
+	background-color: transparent;
+	margin: 0 auto;
+	padding: 0;
+	border-style: none;
+	line-height: 3em;
+}
+#formUpdateAluno input[type="submit"] {
+	margin: 0 auto;
+	width: 100%;
+}
+#jason {
+	width: 256px;
+	height: 256px;
+	margin: auto;
+	display: block;
+}
+#susto {
+	display:block;
+	z-index:999;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+}
